@@ -1,0 +1,29 @@
+.TextField-component {
+  margin-bottom: 25px;
+
+  input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid var(--text-field-border-color);
+    border-radius: 3px;
+    padding: 10px;
+
+    &.error {
+      border-color: var(--text-field-error-color);
+    }
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .error-message {
+    position: absolute;
+    color: var(--text-field-error-color);
+    font-size: 12px;
+  }
+
+}

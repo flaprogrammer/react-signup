@@ -1,0 +1,23 @@
+.Button-component {
+  background: var(--button-background-default);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  cursor: pointer;
+
+
+  &.block {
+    width: 100%;
+  }
+
+  &:hover:not([disabled]) {
+    opacity: 0.8;
+  }
+
+
+  &[disabled] {
+    background: var(--button-background-default-disabled);
+    cursor: default;
+  }
+}

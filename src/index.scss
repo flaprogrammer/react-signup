@@ -1,0 +1,18 @@
+:root {
+  --button-background-default: #3757ff;
+  --button-background-default-disabled: #dfdfdf;
+  --text-field-border-color: #cbd4dc;
+  --text-field-error-color: #ff3013;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
